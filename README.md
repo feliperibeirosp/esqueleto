@@ -16,4 +16,5 @@ dev.db.password=exemplo
 Por default a aplicação loga no profile de *DESENVOLVIMENTO* para logar em produção é preciso adicionar a propriedade ```spring.profiles.active=prod``` no arquivo **catalina.properties** do seu Tomcat.
 Com isso a aplicação vai usar as configurações de *prod*
 
+Apesar de usar JPA, por baixo dos panos está usando a implementação do Hibernate.
 O Hibernate está configurado para criar as tabelas automaticamente com a instrução do *hbm2ddl* em **update**. Essa configuração está na última linha do **db.properties**.
