@@ -13,6 +13,8 @@ dev.db.username=exemplo
 dev.db.password=exemplo
 ```
 
+Por padrão o projeto espera um banco de dados ```Postgre```. Para outros bancos basta inserir o driver correspondente no **pom.xml**.
+
 Por default a aplicação loga no profile de *DESENVOLVIMENTO* para logar em produção é preciso adicionar a propriedade ```spring.profiles.active=prod``` no arquivo **catalina.properties** do seu Tomcat.
 Com isso a aplicação vai usar as configurações de *prod*
 
