@@ -2,6 +2,8 @@
 
 ## Projetinho básico com uma form de clientes e uma Bootstrap-table.
 
+No eclipse basta ir em _File -> Import... -> Maven -> Existing Maven Projects_.
+
 É preciso criar um banco de dados vazio com usuário e senha determinados no **db.properties**. 
 Por padrão, o banco e o usuário e senha são todos '*exemplo*'
 
